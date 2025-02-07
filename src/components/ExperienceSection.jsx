@@ -4,6 +4,36 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const experiences = [
+  
+  {
+    title: "Software Developer Graduate Assistant",
+    company: "University of Georgia",
+    period: "Aug 2024 – Present",
+    location: "Athens, GA, USA",
+    responsibilities: [
+      <>
+        Built a <span className="text-indigo-400 font-bold">React.js, Redux, and D3.js web application</span> for lab data visualization, improving project tracking by{" "}
+        <span className="text-indigo-400 font-bold">35%</span>.
+      </>,
+      <>
+        Designed a <span className="text-indigo-400 font-bold">PostgreSQL database</span> with indexing and partitioning to support <span className="text-indigo-400 font-bold">ETL pipelines</span> and optimize query performance.
+      </>,
+      <>
+        Developed <span className="text-indigo-400 font-bold">RESTful APIs</span> with <span className="text-indigo-400 font-bold">Node.js</span> and <span className="text-indigo-400 font-bold">Express.js</span>, ensuring secure data communication.
+      </>,
+      <>
+        Wrote reusable <span className="text-indigo-400 font-bold">JavaScript</span> and <span className="text-indigo-400 font-bold">TypeScript</span> code, maintaining quality through <span className="text-indigo-400 font-bold">peer reviews</span>.
+      </>,
+      <>
+        Deployed applications on <span className="text-indigo-400 font-bold">AWS EC2</span> using <span className="text-indigo-400 font-bold">Docker</span> for scalability and reliability.
+      </>,
+      <>
+        Collaborated in <span className="text-indigo-400 font-bold">Agile</span> sprints, managing tasks and user stories in <span className="text-indigo-400 font-bold">Jira</span>.
+      </>,
+    ],
+    skills: ["React.js", "Redux", "D3.js", "PostgreSQL", "Node.js", "Express.js", "JavaScript", "TypeScript", "Docker", "AWS EC2", "Agile", "Jira"],
+  },
+  
   {
     title: "Data Analyst",
     company: "University of Georgia",
@@ -25,25 +55,6 @@ const experiences = [
       <>Leveraged AWS RDS for secure data storage, ensuring high availability with a multi-AZ setup.</>,
     ],
     skills: ["Python", "Pandas", "Power BI", "Tableau", "SQL", "AWS RDS"],
-  },
-  {
-    title: "Full Stack Developer",
-    company: "University of Georgia",
-    period: "Aug 2024 – Nov 2024",
-    location: "Athens, GA, USA",
-    responsibilities: [
-      <>
-        Designed and deployed a React.js and Redux project-tracking application, boosting efficiency by{" "}
-        <span className="text-indigo-400 font-bold">35%</span>.
-      </>,
-      <>
-        Engineered a normalized PostgreSQL database with indexing and partitioning, reducing latency by{" "}
-        <span className="text-indigo-400 font-bold">40%</span>.
-      </>,
-      <>Secured backend APIs using Node.js, Express.js, and JWT authentication, ensuring data integrity.</>,
-      <>Deployed the application via Docker containers on AWS EC2, establishing a scalable deployment pipeline.</>,
-    ],
-    skills: ["React.js", "Redux", "PostgreSQL", "Node.js", "Express.js", "Docker", "AWS EC2"],
   },
   {
     title: "Software Engineer",
